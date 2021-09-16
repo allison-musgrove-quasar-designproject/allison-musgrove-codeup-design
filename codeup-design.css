@@ -16,6 +16,10 @@
 . bg-info{
     background-color: #00ABA9;
 }
+
+.bi-twitter {
+    color: #ffffff;
+}
 /*mobile version*/
 @media only screen and (max-width: 576px) {
     body {
