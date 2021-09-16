@@ -14,7 +14,7 @@
 }
 
 . bg-info{
-    ##00ABA9
+    background-color: #00ABA9;
 }
 /*mobile version*/
 @media only screen and (max-width: 576px) {
