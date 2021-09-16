@@ -1,5 +1,8 @@
 .bg-danger {
-    background-color: #E6563B
+    background-color: #E6563B;
+    /*trying to create circles that move with the browser*/
+    /*height: 3px;*/
+    /*width: 3px;*/
 }
 
 . bg-warning {
