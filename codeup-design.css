@@ -1,3 +1,4 @@
+
 .bg-danger {
     background-color: #E6563B;
     /*trying to create circles that move with the browser*/
@@ -10,7 +11,7 @@
 }
 
 . bg-success {
-    background-color: #7CB06C;
+    background-color: #e8e8e8;
 }
 
 . bg-info{
@@ -18,30 +19,30 @@
 }
 
 .bi-twitter {
-    color: #ffffff;
+    color: #5ca4d6;
 }
 /*mobile version*/
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) {
     body {
-        background-color: lightgrey;
+        background-color: #e8e8e8;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     body {
-        background-color: blue;
+        background-color: #e8e8e8;
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     body {
-        background-color: red;
+        background-color: #e8e8e8;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     body {
-        background-color: green;
+        background-color: #e8e8e8;
     }
 }
