@@ -35,12 +35,21 @@ nav {
     width: 105px;
 
 }
+.bg-danger-1 {
+    background-color: #E6563B;
+    /*trying to create circles that move with the browser*/
+    height: 18px;
+    width: 18px;
+    text-align: center;
+
+}
 .big-circle {
     line-height: 105px;
 }
 
 .small-circle {
-    line-height: 18px;
+    /*line-height: 18px;*/
+    text-align: center;
 }
 
 .bg-warning {
@@ -48,17 +57,33 @@ nav {
     height: 105px;
     width: 105px;
 }
+.bg-warning-1 {
+    background-color: #DEA03D;
+    height: 18px;
+    width: 18px;
+}
 
 .bg-success {
-    background-color: #e8e8e8;
+    background-color: #7CB06C;
     height: 105px;
     width: 105px;
+}
+.bg-success-1 {
+    background-color: #7CB06C;
+    height: 18px;
+    width: 18px;
 }
 
 .bg-info{
     background-color: #00ABA9;
     height: 105px;
     width: 105px;
+}
+.bg-info-1{
+    background-color: #00ABA9;
+    height: 18px;
+    width: 105px;
+    border: 18px;
 }
 
 .bi-twitter {
@@ -69,7 +94,7 @@ nav {
     body {
         background-color: #e8e8e8;
     }
-
+<img src="assets/images/apple-ipad.jpg" class="rounded float-start" alt="apples on ipad">
 }
 
 @media only screen and (min-width: 768px) {
