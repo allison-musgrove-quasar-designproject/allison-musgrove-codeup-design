@@ -16,8 +16,8 @@
     <img src="../assets/logo.png" width="105px" height="105px" class="rounded" alt="Stacked Logo">
 </nav>
 <!--placed container-->
-<div class="container">
-    <div class="container">
+<div class="container-fluid">
+    <div class="container-fluid">
         <!--navbar-->
         <!--        <nav class="navbar navbar-light bg-light">-->
         <!--            <img src="../assets/logo.png" class="rounded float-start" alt="Stacked Logo">-->
@@ -71,15 +71,20 @@
                 <p class="lead text-center"><strong>FROM PARK CITY, UTAH</strong></p> <!--Added .text-center-->
             </div>
         </div>
-        <div>
+        <div class="row">
             <!--  creating circles with text inside by adding classes  -->
-            <div class="bg-danger text-white border rounded-circle border-white text-center"><span class="big-circle">DESIGN</span>
+            <div class="container-fluid">
+            <div class="col-3 bg-danger text-white border rounded-circle border-white text-center"><span class="big-circle">DESIGN</span>
             </div>
-            <div class="bg-warning text-white border rounded-circle border-white text-center"><span class="big-circle">DEVELOP</span>
+            <div class="row">
+            <div class="col-3 bg-warning text-white border rounded-circle border-white text-center"><span class="big-circle">DEVELOP</span>
             </div>
-            <div class="bg-success text-white border rounded-circle border-white text-center"><span class="big-circle">SUPPORT</span>
             </div>
-            <div class="bg-info text-white border rounded-circle border-white text-center"><span
+                </div>
+        <div class="row justify-content-around">
+            <div class="col-3 bg-success text-white border rounded-circle border-white text-center"><span class="big-circle">SUPPORT</span>
+            </div>
+            <div class="col-3 bg-info text-white border rounded-circle border-white text-center"><span
                     class="big-circle">HOST</span></div>
         </div>
         <hr>
