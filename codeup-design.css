@@ -13,7 +13,7 @@ h1 {
 div .container .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
 }
 
 nav {
@@ -40,7 +40,6 @@ nav {
 
 .small-circle {
     line-height: 18px;
-    text-align: center;
 }
 
 .bg-warning {
