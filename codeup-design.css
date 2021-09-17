@@ -1,47 +1,91 @@
+.navbar {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div .container .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    height: 65px;
+    margin: 20px 0;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 .bg-danger {
     background-color: #E6563B;
     /*trying to create circles that move with the browser*/
-    /*height: 3px;*/
-    /*width: 3px;*/
+    height: 105px;
+    width: 105px;
+
+}
+.big-circle {
+    line-height: 105px;
 }
 
-. bg-warning {
+.small-circle {
+    line-height: 18px;
+    text-align: center;
+}
+
+.bg-warning {
     background-color: #DEA03D;
+    height: 105px;
+    width: 105px;
 }
 
-. bg-success {
-    background-color: #7CB06C;
+.bg-success {
+    background-color: #e8e8e8;
+    height: 105px;
+    width: 105px;
 }
 
-. bg-info{
-    ##00ABA9
+.bg-info{
+    background-color: #00ABA9;
+    height: 105px;
+    width: 105px;
 }
 
 .bi-twitter {
-    color: #ffffff;
+    color: #5ca4d6;
 }
 /*mobile version*/
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 576px) {
     body {
-        background-color: lightgrey;
+        background-color: #e8e8e8;
     }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     body {
-        background-color: blue;
+        background-color: #e8e8e8;
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     body {
-        background-color: red;
+        background-color: #e8e8e8;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     body {
-        background-color: green;
+        background-color: #e8e8e8;
     }
 }
