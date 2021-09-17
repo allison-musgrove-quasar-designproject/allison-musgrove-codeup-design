@@ -14,7 +14,7 @@ h1 {
 div .container .row {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
 }
 
 nav {
@@ -82,7 +82,7 @@ nav {
 .bg-info-1{
     background-color: #00ABA9;
     height: 18px;
-    width: 105px;
+    width: 18px;
     border: 18px;
 }
 
@@ -94,7 +94,7 @@ nav {
     body {
         background-color: #e8e8e8;
     }
-<img src="assets/images/apple-ipad.jpg" class="rounded float-start" alt="apples on ipad">
+
 }
 
 @media only screen and (min-width: 768px) {
