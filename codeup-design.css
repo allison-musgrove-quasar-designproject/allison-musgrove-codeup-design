@@ -38,6 +38,11 @@ nav {
     line-height: 105px;
 }
 
+.small-circle {
+    line-height: 18px;
+    text-align: center;
+}
+
 .bg-warning {
     background-color: #DEA03D;
     height: 105px;
